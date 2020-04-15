@@ -6,7 +6,7 @@ export default class ShareButton {
 
     constructor(url: string) {
         this.url = url
-        this.eventHandler = new EventHandler();
+        this.eventHandler = new EventHandler()
     }
 
     bind(clazz: string, socialNetwork:string) {
