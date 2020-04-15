@@ -1,0 +1,26 @@
+{
+  "name": "solid-typescript",
+  "version": "1.0.0",
+  "description": "improving SOLID skills with Typescript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorjatoba/solid-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorjatoba/solid-typescript/issues"
+  },
+  "homepage": "https://github.com/victorjatoba/solid-typescript#readme"
+}
