@@ -1,4 +1,4 @@
-import ShareButton from "./ShareButton";
+import ShareButton from "./single_responsability/ShareButton";
 
 const shareButton = new ShareButton("www.victorjatoba.com");
 
