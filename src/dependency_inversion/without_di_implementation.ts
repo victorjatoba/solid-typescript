@@ -5,19 +5,23 @@
  * @see https://youtu.be/9oHY5TllWaU
  */
 
-class Store {
+ export class Store {
   sripe: Stripe;
-  constructor(user) {
+  constructor(user: string) {
     this.sripe = new Stripe(user);
   }
 
   purchaseBike(quantity) {
     this.sripe.makePayment(200 * quantity * 100);
   }
+
+  purchaseHelmet(quantity) {
+    this.sripe.makePayment(15 * quantity * 100);
+  }
 }
 
 class Stripe {
-  user: any;
+  user: string;
   constructor(user) {
     this.user = user;
   }
@@ -30,3 +34,7 @@ class Stripe {
 }
 
 class Paypal {}
+
+const store = new Store("John");
+store.purchaseBike(2);
+store.purchaseHelmet(2);
